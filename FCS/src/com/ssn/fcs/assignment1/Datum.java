@@ -1,10 +1,9 @@
 package com.ssn.fcs.assignment1;
 
-import java.io.Serializable;
 import java.sql.Timestamp;
 import java.util.Comparator;
 
-public class Datum implements Comparable<Datum>,Serializable {
+public class Datum implements Comparable<Datum> {
 
 	Long sensorID;
 	String location;
